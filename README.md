@@ -25,4 +25,4 @@ This repository covers the following intermediate-level topics:
 
 Each topic includes code examples.
 
-*I am planning these topics
+*I am planning to add these topics
