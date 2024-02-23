@@ -1,0 +1,32 @@
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(f"{self.name} is speaking.")
+
+class Dog(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+
+    def bark(self):
+        print(f"{self.name} is barking.")
+
+class Cat(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+
+    def meow(self):
+        print(f"{self.name} is meowing.")
+
+# Create instances of the child classes
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+
+# Call methods from the parent and child classes
+dog.speak()  # Output: Buddy is speaking.
+dog.bark()   # Output: Buddy is barking.
+
+cat.speak()  # Output: Whiskers is speaking.
+cat.meow()   # Output: Whiskers is meowing.
+
